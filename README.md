@@ -28,7 +28,16 @@ sudo dnf install extra-cmake-modules kwin-devel qt6-qtbase-devel \
   vulkan-loader-devel vulkan-headers wayland-protocols-devel
 ```
 
-## Build and install
+## Install on Fedora (COPR)
+
+```bash
+sudo dnf copr enable maxib0n/kwin-effect-crt
+sudo dnf install kwin-effect-crt
+```
+
+Then log out and back in, and enable it in System Settings > Desktop Effects > CRT.
+
+## Build and install from source
 
 ```bash
 ./build-and-install.sh
