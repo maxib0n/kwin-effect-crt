@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <kcfgfile name="kwinrc"/>
+
+    <group name="CRT">
+        <entry name="Brightness" type="Double">
+            <default>1.0</default><min>0.5</min><max>2.0</max>
+        </entry>
+        <entry name="Contrast" type="Double">
+            <default>1.0</default><min>0.5</min><max>1.8</max>
+        </entry>
+        <entry name="Gamma" type="Double">
+            <default>1.0</default><min>0.6</min><max>1.6</max>
+        </entry>
+
+        <entry name="MaskType" type="UInt">
+            <default>0</default><min>0</min><max>2</max>
+        </entry>
+        <entry name="MaskStrength" type="Double">
+            <default>0.12</default><min>0</min><max>1.0</max>
+        </entry>
+        <entry name="MaskSize" type="UInt">
+            <default>3</default><min>2</min><max>12</max>
+        </entry>
+
+        <entry name="ColorScheme" type="UInt">
+            <default>0</default><min>0</min><max>3</max>
+        </entry>
+        <entry name="Saturation" type="Double">
+            <default>1.0</default><min>0</min><max>2.0</max>
+        </entry>
+
+        <entry name="ScanlineStrength" type="Double">
+            <default>0.12</default><min>0</min><max>1.0</max>
+        </entry>
+        <entry name="ScanlineSize" type="UInt">
+            <default>4</default><min>2</min><max>16</max>
+        </entry>
+        <entry name="ScanlineBeam" type="Double">
+            <default>1.0</default><min>0.3</min><max>3.0</max>
+        </entry>
+
+        <entry name="Glow" type="Double">
+            <default>0.0</default><min>0</min><max>0.6</max>
+        </entry>
+        <entry name="GlowRadius" type="Double">
+            <default>1.5</default><min>0.5</min><max>3.0</max>
+        </entry>
+
+        <entry name="Curvature" type="Double">
+            <default>0.0</default><min>0</min><max>0.4</max>
+        </entry>
+        <entry name="Vignette" type="Double">
+            <default>0.0</default><min>0</min><max>1.0</max>
+        </entry>
+    </group>
+</kcfg>

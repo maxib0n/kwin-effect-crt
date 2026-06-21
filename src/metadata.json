@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "max",
+                "Email": "massimiliano.bedana@devlabtech.it"
+            }
+        ],
+        "Category": "Appearance",
+        "Description": "Fullscreen CRT: aperture-grille / shadow-mask / slot-mask, phosphor color schemes, Gaussian scanlines, glow.",
+        "EnabledByDefault": false,
+        "License": "GPL-3.0-or-later",
+        "Name": "CRT",
+        "ServiceTypes": [
+            "KWin/Effect"
+        ],
+        "Version": "0.1.0"
+    },
+    "X-KDE-ConfigModule": "kwin_effect_crt_config",
+    "X-KDE-Ordering": 99
+}

@@ -1,0 +1,14 @@
+{
+    "KPlugin": {
+        "Name": "CRT",
+        "Description": "Configure the CRT desktop effect",
+        "Category": "Appearance",
+        "License": "GPL-3.0-or-later",
+        "ServiceTypes": [
+            "KCModule"
+        ]
+    },
+    "X-KDE-ParentComponents": [
+        "kwin_effect_crt"
+    ]
+}

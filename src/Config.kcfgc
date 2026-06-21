@@ -1,0 +1,5 @@
+File=options.kcfg
+NameSpace=CrtTrinitron
+ClassName=Config
+Singleton=true
+Mutators=true
